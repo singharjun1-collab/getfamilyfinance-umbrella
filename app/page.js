@@ -101,10 +101,6 @@ export default function HomePage() {
         </div>
         <div className="nav-links">
           <a href="#products">Products</a>
-          <a href="#about">About</a>
-          <a href="https://app.getfamilyfinance.com" className="nav-link-cta">
-            Sign in
-          </a>
         </div>
       </nav>
 
@@ -135,7 +131,15 @@ export default function HomePage() {
 
       <footer className="footer">
         <span>© 2026 GetFamilyFinance</span>
-        <span>Privacy · Terms · Contact</span>
+        <span>
+          Support:{' '}
+          <a
+            href="mailto:hello@getfamilyfinance.com"
+            style={{ color: 'var(--accent)' }}
+          >
+            hello@getfamilyfinance.com
+          </a>
+        </span>
       </footer>
     </main>
   );
