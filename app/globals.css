@@ -284,3 +284,8 @@ a {
   flex-wrap: wrap;
   gap: 12px;
 }
+
+.product-icon-pocketwise {
+    background: rgba(221, 154, 43, 0.16);
+    color: #dd9a2b;
+}
